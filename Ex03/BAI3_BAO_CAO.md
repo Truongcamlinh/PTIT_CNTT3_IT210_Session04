@@ -1,0 +1,2 @@
+Ở Cách A (`/bai3/orders/5`), số `5` nằm trong phần **URI Path**, cụ thể là một đoạn đường dẫn đại diện cho tài nguyên đơn hàng có ID tương ứng. Ở Cách B (`/bai3/orders?id=5`), số `5` nằm trong **Query String** dưới dạng tham số truy vấn `id`. Theo bài học REST, khi truy cập chi tiết một đối tượng cụ thể thì dùng Path Variable sẽ rõ nghĩa tài nguyên hơn và URL cũng gọn hơn. Vì vậy em chọn **Cách A** với `@PathVariable` để lấy ID đơn hàng.
+

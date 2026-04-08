@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/BAI3_BAO_CAO.md">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/BAI3_BAO_CAO.md" />
+              <option name="updatedContent" value="Ở Cách A (`/bai3/orders/5`), số `5` nằm trong phần **URI Path**, cụ thể là một đoạn đường dẫn đại diện cho tài nguyên đơn hàng có ID tương ứng. Ở Cách B (`/bai3/orders?id=5`), số `5` nằm trong **Query String** dưới dạng tham số truy vấn `id`. Theo bài học REST, khi truy cập chi tiết một đối tượng cụ thể thì dùng Path Variable sẽ rõ nghĩa tài nguyên hơn và URL cũng gọn hơn. Vì vậy em chọn **Cách A** với `@PathVariable` để lấy ID đơn hàng.&#10;" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
